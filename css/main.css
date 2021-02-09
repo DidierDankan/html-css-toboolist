@@ -5,6 +5,16 @@
 
 }
 
-#h1-fix{
-    display: inline-block;
+body{
+    background-color: gray;
+}
+
+.main-header{
+    padding: 15px;
+    background-color: white;
+}
+
+
+.title-logo-fix{
+    vertical-align: middle;
 }
