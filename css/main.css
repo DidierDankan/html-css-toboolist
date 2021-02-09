@@ -57,6 +57,10 @@ ul{
 
 }
 
+.red-icon{
+    color: red;
+}
+
 .list-buttom1{
     display: inline-block;
     width: 80px;
