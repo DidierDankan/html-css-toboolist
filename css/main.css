@@ -9,12 +9,21 @@ body{
     background-color: gray;
 }
 
+/*main header logo*/
 .main-header{
     padding: 15px;
     background-color: white;
 }
 
-
 .title-logo-fix{
     vertical-align: middle;
+}
+
+
+/*main container*/
+
+.main-container{
+    width: 900px;
+    margin: 40px auto;
+    background-color: white;
 }
