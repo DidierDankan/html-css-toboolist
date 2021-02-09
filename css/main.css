@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 body{
-    background-color: gray;
+    background-color: rgb(231, 229, 229);
 }
 
 ul{
@@ -23,26 +24,72 @@ ul{
 }
 
 
-/*main container*/
+/*all container*/
 
-.main-container{
+.div-container{
     width: 900px;
-    margin: 40px auto;
+    height: 530px;
+    margin: auto;
+    padding-left: 30px;
     background-color: white;
 }
+
+.div-container2{
+    width: 900px;
+    height: 50px;
+    margin: auto;
+    padding-left: 30px;
+    background-color: white;
+}
+
+#div-container-fix{
+    margin-top: 40px;
+    margin-bottom: 1px;
+}
+
+/* buttom custom*/
 
 .buttom-mod{
     display: inline-block;
     width: 80px;
     padding: 4px;
+    margin-top: 20px;
     text-align: center;
     background-color: dodgerblue;
     border-radius: 5px;
 }
 
+.buttom-mod2{
+    display: inline-block;
+    width: 100px;
+    padding: 4px;
+    color:rgba(128,128,128, .75);
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+/*section custom*/
+
+.section-margin{
+    margin-top: 30px;
+}
+
+.section-padding-fix{
+    padding-top: 20px;
+}
+
+.section-margin-foot{
+    margin-bottom: 30px;
+}
+
 .list-item{
     list-style: none;
+    padding-top: 15px;
 }
+
+/*icon custom*/
 
 .icon{
     display: inline-block;
@@ -61,11 +108,39 @@ ul{
     color: red;
 }
 
+/*list buttom custom*/
+
 .list-buttom1{
     display: inline-block;
     width: 80px;
     padding: 3px;
     text-align: center;
     background-color: dodgerblue;
-    border-radius: 5px;
+    border-radius: 10px;
 }
+
+.list-buttom-white{
+    color: white;
+    font-size: 12px;
+}
+
+.color-buttom1{
+    background-color: orange;
+}
+
+.color-buttom2{
+    background-color: rgb(167, 4, 158);
+}
+
+.color-buttom3{
+    background-color: rgb(250, 78, 241);
+}
+
+.color-buttom4{
+    background-color: rgba(103, 223, 6, 0.925);
+}
+
+.color-buttom5{
+    background-color: rgb(42, 173, 92);
+}
+
